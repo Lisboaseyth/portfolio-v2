@@ -9,7 +9,7 @@ import {
 
 import { Text } from "@/styles/Text";
 import { useEffect, useState } from "react";
-import { FaGithub, FaShare } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { userData } from "@/utils/userData";
 
 interface ReposType {
@@ -85,7 +85,6 @@ export const Project = (): JSX.Element => {
                   target="_blank"
                   href={`https://${repository.homepage}`}
                 >
-                  <FaShare /> See demo
                 </ProjectLink>
               )}
             </ProjectLinks>
